@@ -2,6 +2,9 @@
 title: "reticulate walkthrough"
 author: "Liam D. Bailey"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
     theme: cerulean
     toc: yes
@@ -9,9 +12,6 @@ output:
     toc_float:
       smooth_scroll: yes
     number_sections: yes
-  pdf_document:
-    toc: yes
-    toc_depth: '2'
 ---
 
 We are going to use the package reticulate to run python in R. This will allow us to streamline code between the two languages.
